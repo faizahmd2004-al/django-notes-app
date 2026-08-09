@@ -27,7 +27,7 @@ pipeline {
             }
         }
 
-        stage("Build") {
+        stage("Build1") {
             steps {
                 script {
                     dockerBuild("notes-apps")
